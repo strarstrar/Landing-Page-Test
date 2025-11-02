@@ -1,0 +1,20 @@
+body {
+    background-image: url("../images/Screenshot from 2025-11-02 00-42-16.png");
+    background-size: cover;
+    font-family: 'Rancho', 'Roboto', serif;
+}
+
+.title {
+    font-size: 300px;
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+}
+
+.content {
+    font-size: 50px;
+}
+
+.title, .content{
+    text-align: center;
+}
