@@ -18,3 +18,8 @@ body {
 .title, .content{
     text-align: center;
 }
+
+#logo {
+    font-weight: 700;
+    font-size: 50px;
+}
