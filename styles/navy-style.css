@@ -82,6 +82,7 @@
 
 .main-content {
     text-align: center;
+    margin: 50px;
 }
 
 .main-title {
@@ -90,11 +91,22 @@
     font-weight: 700;
 }
 
-.info-content img {
-    height: 200px;
+.info-content {
+    justify-content: center;
+    gap: 50px;
 }
 
-/*   - Start Footer */
+.info-content div {
+    width: 150px;
+}
+
+.info-content img {
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* End Sign-Box - Start Footer */
 
 .footer {
     background-color: #1f2937;
