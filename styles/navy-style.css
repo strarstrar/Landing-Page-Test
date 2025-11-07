@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-.header-top, #header-links, .header-content, .info-content, .footer, .quote {
+.header-top, #header-links, .header-content, .info-content, .footer, .quote, .sign-box {
     display: flex;
 }
 
@@ -13,7 +13,7 @@
     color: white;
 }
 
-/* End Defaults - Start Header */
+/* End Defaults - Start Header Top */
 
 .header {
     background-color: #1f2937;
@@ -41,6 +41,8 @@
     gap: 30px;
     font-size: 20px;
 }
+
+/* End Header Top - Start Header Content */
 
 .header-content {
     margin-bottom: 100px;
@@ -78,7 +80,7 @@
     margin-left: 15px;
 }
 
-/* End Header - Start Main Content */
+/* End Header Content - Start Main Content */
 
 .main-content {
     text-align: center;
@@ -129,9 +131,37 @@
     margin-left: auto;
 }
 
-/* End Quote - Start Sign Boc */
+/* End Quote - Start Sign Box */
 
+.sign-box {
+    background-color: #3882f6;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 100px;
+    width: 1000px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 150px;
+}
 
+#join-ad {
+    font-weight: 700;
+    border: 5px;
+}
+
+.sign-box a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 /* End Sign Box - Start Footer */
 
