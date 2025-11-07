@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-.header-top, #header-links, .header-content, .info-content, .footer {
+.header-top, #header-links, .header-content, .info-content, .footer, .quote {
     display: flex;
 }
 
@@ -97,16 +97,43 @@
 }
 
 .info-content div {
-    width: 150px;
+    width: 200px;
 }
 
 .info-content img {
-    height: 150px;
+    height: 200px;
     border-radius: 10px;
     margin-bottom: 15px;
 }
 
-/* End Sign-Box - Start Footer */
+/* End Main Content - Start Quote */
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 30px;
+}
+
+.author {
+    margin-left: auto;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: auto;
+}
+
+/* End Quote - Start Sign Boc */
+
+
+
+/* End Sign Box - Start Footer */
 
 .footer {
     background-color: #1f2937;
