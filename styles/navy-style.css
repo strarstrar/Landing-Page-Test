@@ -15,11 +15,20 @@
 
 /* End Defaults - Start Header Top */
 
+/* :: set the background color to navy,
+and give padding for top and bottom to keep off edges :: */
 .header {
     background-color: #1f2937;
-    padding: 30px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding: 30px 0;
+}
+
+/* :: max size limit to not grow,
+margin to self center with no top and bottom and auto left and right,
+and some left right padding to leave some space for smaller viewports :: */
+.header-element {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
 }
 
 .header-top {
